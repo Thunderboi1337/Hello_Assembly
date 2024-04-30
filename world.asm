@@ -23,6 +23,6 @@ section .data
     msg: DB "Test", 0xA
     msglength: EQU $ - msg;
 
-    //nasm -f elf64 -o world.o world.asm
-    //ld -o world world.o
-    //./world
+    ;nasm -f elf64 -o world.o world.asm
+    ;ld -o world world.o
+    ;./world
